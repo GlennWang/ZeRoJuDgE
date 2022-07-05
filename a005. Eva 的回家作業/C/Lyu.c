@@ -1,18 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main(void)
 {
-    int line;
-    scanf("%d", &line);
-    int n[line][5];
-    for (int i = 0; i < line; i++)
+    int lines, nowline, num_arr[5];
+    scanf("%d", &lines);
+    for (nowline = 0; nowline < lines; nowline++)
     {
-        scanf("%d %d %d %d", &n[i][0], &n[i][1], &n[i][2], &n[i][3]);
-        n[i][4] = (n[i][1] - n[i][0] == n[i][2] - n[i][1]) ? (2 * n[i][3] - n[i][2]) : (n[i][3] * (n[i][3] / n[i][2]));
-    }
-    for (int i = 0; i < line; i++)
-    {
-        for (int j = 0; j < 4; j++)
-            printf("%d ", n[i][j]);
-        printf("%d\n", n[i][4]);
+        scanf("%d %d %d %d", &num_arr[0], &num_arr[1], &num_arr[2], &num_arr[3]);
+        num_arr[4] = (num_arr[1] - num_arr[0] == num_arr[2] - num_arr[1]) ? (2 * num_arr[3] - num_arr[2]) : (num_arr[3] * (num_arr[3] / num_arr[2]));
+        printf("%d %d %d %d %d\n", num_arr[0], num_arr[1], num_arr[2], num_arr[3], num_arr[4]);
     }
 }
