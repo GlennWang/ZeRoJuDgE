@@ -1,0 +1,1 @@
+ a038. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a038){:target="_blank" rel="noopener"}

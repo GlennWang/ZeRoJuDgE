@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
             printf("Cannot open file\n");
         else
         {
-            fprintf(fp, " %s. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=%s)", number, number);
+            fprintf(fp, " %s. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=%s){:target=\"_blank\" rel=\"noopener\"}", number, number);
         }
         fclose(fp);
     }

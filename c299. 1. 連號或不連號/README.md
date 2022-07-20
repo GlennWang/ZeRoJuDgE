@@ -1,1 +1,1 @@
-c299. [1. 連號或不連號](https://zerojudge.tw/ShowProblem?problemid=c299)
+c299. [1. 連號或不連號](https://zerojudge.tw/ShowProblem?problemid=c299){:target="_blank" rel="noopener"}

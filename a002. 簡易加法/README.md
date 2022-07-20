@@ -1,1 +1,1 @@
-a002. [簡易加法](https://zerojudge.tw/ShowProblem?problemid=a002)
+a002. [簡易加法](https://zerojudge.tw/ShowProblem?problemid=a002){:target="_blank" rel="noopener"}

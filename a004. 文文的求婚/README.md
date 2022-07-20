@@ -1,1 +1,1 @@
-a004. [文文的求婚](https://zerojudge.tw/ShowProblem?problemid=a004)
+a004. [文文的求婚](https://zerojudge.tw/ShowProblem?problemid=a004){:target="_blank" rel="noopener"}
