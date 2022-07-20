@@ -1,1 +1,1 @@
-a001. [«¢Åo](https://zerojudge.tw/ShowProblem?problemid=a001)
+a001. [å“ˆå›‰](https://zerojudge.tw/ShowProblem?problemid=a001)

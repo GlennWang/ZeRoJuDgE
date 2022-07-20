@@ -38,17 +38,7 @@ int main(int argc, char *argv[])
             printf("Cannot open file\n");
         else
         {
-            memset(buffer, '\0', LENGTH); // clear buffer
-            sprintf(buffer, "%s. [%s](https://zerojudge.tw/ShowProblem?problemid=%s)", number, name, number);
-            for (int i = 0; i < LENGTH; i++)
-            {
-                if (buffer[i] == '\0') // write butter into README.md
-                {
-                    fwrite(buffer, sizeof(char), i, fp);
-                    break;
-                }
-            }
-            printf("|%s|\n", buffer);
+            fprintf(fp, " %s. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=%s)", number, number);
         }
         fclose(fp);
     }
