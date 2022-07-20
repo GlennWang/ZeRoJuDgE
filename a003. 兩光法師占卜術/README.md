@@ -1,1 +1,1 @@
- a003. [兩光法師占卜術](https://zerojudge.tw/ShowProblem?problemid=a003){:target="_blank" rel="noopener"}
+ a003. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a003)

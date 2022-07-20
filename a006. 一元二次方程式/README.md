@@ -1,1 +1,1 @@
-a006. [一元二次方程式](https://zerojudge.tw/ShowProblem?problemid=a006){:target="_blank" rel="noopener"}
+ a006. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a006)

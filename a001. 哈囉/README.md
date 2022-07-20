@@ -1,1 +1,1 @@
-a001. [哈囉](https://zerojudge.tw/ShowProblem?problemid=a001){:target="_blank" rel="noopener"}
+ a001. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a001)

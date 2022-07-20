@@ -24,21 +24,24 @@ int main(int argc, char *argv[])
             printf("> %s\n", buffer);
             system(buffer); // make empty files by each name
         }
+
         FILE *fp;
         sprintf(buffer, "%s. %s\\README.md", number, name); // set buffer to file path of README.md
-        fp = fopen(buffer, "w");                            // no file detect, so it will generate file with given file path
+
+        fp = fopen(buffer, "w"); // no file detect, so it will generate file with given file path
         if (fp == NULL)
             printf("Cannot create file\n");
         else
             printf("> create %s\n", buffer);
         fclose(fp);
+
         fp = fopen(buffer, "w"); // file detect, now can do format with it
-        printf("> write %s\n", buffer);
         if (fp == NULL)
             printf("Cannot open file\n");
         else
         {
-            fprintf(fp, " %s. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=%s){:target=\"_blank\" rel=\"noopener\"}", number, number);
+            printf("> write %s\n", buffer);
+            fprintf(fp, " %s. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=%s)", number, number);
         }
         fclose(fp);
     }

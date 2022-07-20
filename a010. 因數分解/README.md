@@ -1,1 +1,1 @@
-a010. [因數分解](https://zerojudge.tw/ShowProblem?problemid=a010){:target="_blank" rel="noopener"}
+ a010. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a010)

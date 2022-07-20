@@ -1,1 +1,1 @@
-a009. [解碼器](https://zerojudge.tw/ShowProblem?problemid=a009){:target="_blank" rel="noopener"}
+ a009. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a009)

@@ -1,1 +1,1 @@
-a263. [日期差幾天](https://zerojudge.tw/ShowProblem?problemid=a263){:target="_blank" rel="noopener"}
+ a263. [click here to view question](https://zerojudge.tw/ShowProblem?problemid=a263)
