@@ -8,10 +8,10 @@ public class Lyu {
         if (judgmental < 0) {
             System.out.println("No real root");
         } else {
-            double x1 = (-b + Math.sqrt(judgmental)) / (2 * a);
-            double x2 = (-b - Math.sqrt(judgmental)) / (2 * a);
-            System.out.println((judgmental == 0) ? "Two same roots x=" + Integer.toString((int) x1)
-                    : "Two different roots x1=" + Integer.toString((int) x1) + " , x2=" + Integer.toString((int) x2));
+            int x1 = (int) (-b + Math.sqrt(judgmental)) / (2 * a);
+            int x2 = (int) (-b - Math.sqrt(judgmental)) / (2 * a);
+            System.out.println((judgmental == 0) ? "Two same roots x=" + x1
+                    : "Two different roots x1=" + x1 + " , x2=" + x2);
         }
         scan.close();
     }
